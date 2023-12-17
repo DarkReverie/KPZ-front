@@ -1,0 +1,68 @@
+/* Global styles or include in your existing CSS file */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container styles */
+  .md-100 {
+    max-width: 100%;
+    margin: 20px;
+  }
+  
+  /* Form input styles */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Modal styles */
+  .modal-body {
+    padding: 20px;
+  }
+  
+  /* Loading message styles */
+  td[colSpan="7"] {
+    text-align: center;
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    .md-100 {
+      max-width: 100%;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+  }
+  
